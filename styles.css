@@ -1,0 +1,52 @@
+/* Basic Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Section styling */
+section {
+  margin-bottom: 20px;
+  padding: 15px;
+  
+}
+
+/* Collapsible section headers */
+h1, h2 {
+  cursor: pointer;
+  color: #0056b3;
+}
+
+/* Hidden content by default */
+.content {
+  display: none;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+/* Styling for Table of Contents */
+nav {
+  margin-bottom: 20px;
+}
+
+/* TOC list styling */
+ul#toc {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul#toc li {
+  margin-bottom: 5px;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Hover effect on TOC items */
+ul#toc li:hover {
+  text-decoration: underline;
+}
+
+/* Paragraph text color */
+p {
+  color: rgb(14, 216, 61);
+}
